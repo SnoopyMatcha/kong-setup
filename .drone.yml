@@ -11,7 +11,7 @@ steps:
   - name: build-docker-image
     image: plugins/docker
     settings:
-      repo: libai.amastek.com.tw:8002/amas/kong
+      repo: libai.amastek.com.tw:8002/amas/kong-setup
       registry: libai.amastek.com.tw:8002
       username:
         from_secret: harbor_username
