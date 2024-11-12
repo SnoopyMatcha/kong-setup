@@ -129,7 +129,7 @@ def create_plugin():
             "pdp_path": "/user/whoami/",
         },
         "protocols": ["grpc", "grpcs", "http", "https"],
-        "enabled": False,
+        "enabled": True,
     }
 
     response = requests.post(url, json=data, headers={"Content-Type": "application/json"})
